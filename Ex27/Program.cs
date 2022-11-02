@@ -2,6 +2,8 @@
 // 452 -> 11
 // 82 -> 10
 // 9012 -> 12
+try
+{
 int SumNumbers(int x)
 {
     int sum = 0;
@@ -19,3 +21,8 @@ Console.WriteLine("Введите целое число");
 int n = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine($"Сумма всех цифр в числе {n} равна {SumNumbers(n)}.");
+}
+catch
+{
+    Console.WriteLine ($"Ошибка! Введите целое число.");
+}
