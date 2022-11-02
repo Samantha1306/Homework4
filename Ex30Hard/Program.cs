@@ -33,4 +33,6 @@ for (int i = 0; i < count; i++)
 }
 int num2 = count - num1;
 bool x = num1 > num2;
+Console.WriteLine($"Количество нулей в массиве: {num2}");
+Console.WriteLine($"Количество единиц в массиве: {num1}");
 Console.WriteLine(x);
